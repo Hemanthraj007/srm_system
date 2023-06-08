@@ -10,12 +10,12 @@ if(isset($_POST['button'])){
              die(mysqli_error());
          }
 
-         $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '201031044' ");
+         $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '1234567844' ");
          $row = mysqli_fetch_assoc($result);
          if( $row['registernumber'] == $regnumber){
          if(mysqli_num_rows($result) > 0){
           
-         $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-12-05' ");
+         $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-01-01' ");
          $row = mysqli_fetch_assoc($result);
          if( $row['dob'] == $dateofbirth){
  
@@ -32,12 +32,12 @@ if(isset($_POST['button'])){
     }
 }
 }
-        elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '201031023' ")){   //else if started...
+        elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '1234567823' ")){   //else if started...
             $row = mysqli_fetch_assoc($result);
             if( $row['registernumber'] == $regnumber){
             if(mysqli_num_rows($result) > 0){
         
-        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-06-08'  ");
+        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-02-02'  ");
         $row = mysqli_fetch_assoc($result);
          if( $row['dob'] == $dateofbirth){
 
@@ -49,12 +49,12 @@ if(isset($_POST['button'])){
         }
     }
    
-        elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '201031049' ")){
+        elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '1234567849' ")){
             $row = mysqli_fetch_assoc($result);
             if( $row['registernumber'] == $regnumber){
             if(mysqli_num_rows($result) > 0){
         
-        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-12-09'  ");
+        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-03-03'  ");
         $row = mysqli_fetch_assoc($result);
          if( $row['dob'] == $dateofbirth){
 
@@ -65,12 +65,12 @@ if(isset($_POST['button'])){
     }     
         }
     }
-    elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '201031040' ")){
+    elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '1234567840' ")){
             $row = mysqli_fetch_assoc($result);
             if( $row['registernumber'] == $regnumber){
             if(mysqli_num_rows($result) > 0){
         
-        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2003-04-09'  ");
+        $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2003-04-04'  ");
         $row = mysqli_fetch_assoc($result);
          if( $row['dob'] == $dateofbirth){
 
@@ -82,12 +82,12 @@ if(isset($_POST['button'])){
         }
     }
 
-    elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '201031134' ")){
+    elseif($result = mysqli_query($con, "SELECT * FROM stu_reg WHERE registernumber LIKE '1234567834' ")){
         $row = mysqli_fetch_assoc($result);
         if( $row['registernumber'] == $regnumber){
         if(mysqli_num_rows($result) > 0){
     
-    $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-07-30'  ");
+    $result = mysqli_query($con, "SELECT * FROM stu_reg WHERE dob LIKE '2002-05-05'  ");
     $row = mysqli_fetch_assoc($result);
      if( $row['dob'] == $dateofbirth){
 
